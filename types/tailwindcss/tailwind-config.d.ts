@@ -1215,4 +1215,5 @@ export interface TailwindConfig {
     prefix: string;
     important: boolean;
     separator: string;
+    mode?: 'jit' | '';
 }
